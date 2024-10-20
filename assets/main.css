@@ -77,6 +77,9 @@ h6 {
 
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
+
+
+
 body {
   font-family: "Red Hat Display", serif;
   font-size: 16px;
@@ -88,6 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--paleblue);
+  
 }
 
 .page-container {
@@ -98,9 +102,11 @@ body {
   border-radius: 10px;
   position: relative;
   transition: all 0.3s ease;
-  margin: auto;
-  margin-top: 2rem;
   border-radius: 12px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 .page-container__hero {
@@ -208,5 +214,8 @@ body {
 }
 
 .attribution {
-  margin: 1rem;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 5%;
 }
